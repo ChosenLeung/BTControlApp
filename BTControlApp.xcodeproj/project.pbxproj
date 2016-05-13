@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C60267AC1ABEA00A00E90B5F /* BTFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C60267AA1ABEA00A00E90B5F /* BTFilesViewController.m */; };
+		C60267AD1ABEA00A00E90B5F /* BTFilesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C60267AB1ABEA00A00E90B5F /* BTFilesViewController.xib */; };
+		C653238D1AADEAC400F2489B /* BTSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C653238C1AADEAC400F2489B /* BTSocketManager.m */; };
+		C67F81101A5C2727009B027E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C67F810F1A5C2727009B027E /* main.m */; };
+		C67F81131A5C2727009B027E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C67F81121A5C2727009B027E /* AppDelegate.m */; };
+		C67F811B1A5C2727009B027E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67F811A1A5C2727009B027E /* Images.xcassets */; };
+		C67F812A1A5C2728009B027E /* BTControlAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C67F81291A5C2728009B027E /* BTControlAppTests.m */; };
+		C67F81351A5C27FA009B027E /* BTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C67F81341A5C27FA009B027E /* BTMainViewController.m */; };
+		C67F81371A5C2814009B027E /* BTMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C67F81361A5C2814009B027E /* BTMainViewController.xib */; };
+		C67F813A1A5C2B11009B027E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C67F81391A5C2B11009B027E /* Default-568h@2x.png */; };
+		C6A8DC131ACC2D4800863554 /* grey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A8DC121ACC2D4800863554 /* grey@2x.png */; };
+		C6BF8A841ACABF1400631D17 /* orange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6BF8A831ACABF1400631D17 /* orange@2x.png */; };
+		C6C60EB11ABDD93000FDEB36 /* BTHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C60EAF1ABDD93000FDEB36 /* BTHelpViewController.m */; };
+		C6C60EB21ABDD93000FDEB36 /* BTHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6C60EB01ABDD93000FDEB36 /* BTHelpViewController.xib */; };
+		C6CCF30E1AC2F02700DFFF65 /* help@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6CCF30D1AC2F02700DFFF65 /* help@2x.png */; };
+		C6CCF3111AC2F13100DFFF65 /* earth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6CCF30F1AC2F13100DFFF65 /* earth@2x.png */; };
+		C6CCF3121AC2F13100DFFF65 /* mail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6CCF3101AC2F13100DFFF65 /* mail@2x.png */; };
+		DFEA8BEDB5D2D2F5F4603B0F /* libPods-BTControlApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A403ADF44D3B1661DF5C3D /* libPods-BTControlApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C67F81241A5C2728009B027E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C67F81021A5C2727009B027E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67F81091A5C2727009B027E;
+			remoteInfo = BTControlApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57177D3DCF9256192CF2E764 /* Pods-BTControlApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTControlApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTControlApp/Pods-BTControlApp.release.xcconfig"; sourceTree = "<group>"; };
+		C60267A91ABEA00A00E90B5F /* BTFilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTFilesViewController.h; sourceTree = "<group>"; };
+		C60267AA1ABEA00A00E90B5F /* BTFilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTFilesViewController.m; sourceTree = "<group>"; };
+		C60267AB1ABEA00A00E90B5F /* BTFilesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTFilesViewController.xib; sourceTree = "<group>"; };
+		C653238B1AADEAC400F2489B /* BTSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSocketManager.h; sourceTree = "<group>"; };
+		C653238C1AADEAC400F2489B /* BTSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSocketManager.m; sourceTree = "<group>"; };
+		C67F810A1A5C2727009B027E /* BTControlApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTControlApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67F810E1A5C2727009B027E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C67F810F1A5C2727009B027E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C67F81111A5C2727009B027E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C67F81121A5C2727009B027E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C67F811A1A5C2727009B027E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C67F81231A5C2728009B027E /* BTControlAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTControlAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67F81281A5C2728009B027E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C67F81291A5C2728009B027E /* BTControlAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTControlAppTests.m; sourceTree = "<group>"; };
+		C67F81331A5C27FA009B027E /* BTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMainViewController.h; sourceTree = "<group>"; };
+		C67F81341A5C27FA009B027E /* BTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMainViewController.m; sourceTree = "<group>"; };
+		C67F81361A5C2814009B027E /* BTMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTMainViewController.xib; sourceTree = "<group>"; };
+		C67F81391A5C2B11009B027E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C6A8DC121ACC2D4800863554 /* grey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grey@2x.png"; sourceTree = "<group>"; };
+		C6BF8A831ACABF1400631D17 /* orange@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange@2x.png"; sourceTree = "<group>"; };
+		C6C60EAE1ABDD93000FDEB36 /* BTHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHelpViewController.h; sourceTree = "<group>"; };
+		C6C60EAF1ABDD93000FDEB36 /* BTHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHelpViewController.m; sourceTree = "<group>"; };
+		C6C60EB01ABDD93000FDEB36 /* BTHelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTHelpViewController.xib; sourceTree = "<group>"; };
+		C6CCF30D1AC2F02700DFFF65 /* help@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help@2x.png"; sourceTree = "<group>"; };
+		C6CCF30F1AC2F13100DFFF65 /* earth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "earth@2x.png"; sourceTree = "<group>"; };
+		C6CCF3101AC2F13100DFFF65 /* mail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail@2x.png"; sourceTree = "<group>"; };
+		F4A403ADF44D3B1661DF5C3D /* libPods-BTControlApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BTControlApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76A3F28F00F4DEF563A8892 /* Pods-BTControlApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTControlApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTControlApp/Pods-BTControlApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C67F81071A5C2727009B027E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFEA8BEDB5D2D2F5F4603B0F /* libPods-BTControlApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67F81201A5C2728009B027E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0426ED4DA020051E713F3F87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4A403ADF44D3B1661DF5C3D /* libPods-BTControlApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4C24DF319F8DB180ECC33DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F76A3F28F00F4DEF563A8892 /* Pods-BTControlApp.debug.xcconfig */,
+				57177D3DCF9256192CF2E764 /* Pods-BTControlApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C67F81011A5C2727009B027E = {
+			isa = PBXGroup;
+			children = (
+				C67F810C1A5C2727009B027E /* BTControlApp */,
+				C67F81261A5C2728009B027E /* BTControlAppTests */,
+				C67F810B1A5C2727009B027E /* Products */,
+				B4C24DF319F8DB180ECC33DB /* Pods */,
+				0426ED4DA020051E713F3F87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C67F810B1A5C2727009B027E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C67F810A1A5C2727009B027E /* BTControlApp.app */,
+				C67F81231A5C2728009B027E /* BTControlAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C67F810C1A5C2727009B027E /* BTControlApp */ = {
+			isa = PBXGroup;
+			children = (
+				C67F81111A5C2727009B027E /* AppDelegate.h */,
+				C67F81121A5C2727009B027E /* AppDelegate.m */,
+				C67F81331A5C27FA009B027E /* BTMainViewController.h */,
+				C67F81341A5C27FA009B027E /* BTMainViewController.m */,
+				C67F81361A5C2814009B027E /* BTMainViewController.xib */,
+				C6C60EAE1ABDD93000FDEB36 /* BTHelpViewController.h */,
+				C6C60EAF1ABDD93000FDEB36 /* BTHelpViewController.m */,
+				C6C60EB01ABDD93000FDEB36 /* BTHelpViewController.xib */,
+				C60267A91ABEA00A00E90B5F /* BTFilesViewController.h */,
+				C60267AA1ABEA00A00E90B5F /* BTFilesViewController.m */,
+				C60267AB1ABEA00A00E90B5F /* BTFilesViewController.xib */,
+				C653238B1AADEAC400F2489B /* BTSocketManager.h */,
+				C653238C1AADEAC400F2489B /* BTSocketManager.m */,
+				C67F81381A5C2B11009B027E /* Resources */,
+				C67F811A1A5C2727009B027E /* Images.xcassets */,
+				C67F810D1A5C2727009B027E /* Supporting Files */,
+			);
+			path = BTControlApp;
+			sourceTree = "<group>";
+		};
+		C67F810D1A5C2727009B027E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C67F810E1A5C2727009B027E /* Info.plist */,
+				C67F810F1A5C2727009B027E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C67F81261A5C2728009B027E /* BTControlAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C67F81291A5C2728009B027E /* BTControlAppTests.m */,
+				C67F81271A5C2728009B027E /* Supporting Files */,
+			);
+			path = BTControlAppTests;
+			sourceTree = "<group>";
+		};
+		C67F81271A5C2728009B027E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C67F81281A5C2728009B027E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C67F81381A5C2B11009B027E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6A8DC121ACC2D4800863554 /* grey@2x.png */,
+				C6BF8A831ACABF1400631D17 /* orange@2x.png */,
+				C6CCF30F1AC2F13100DFFF65 /* earth@2x.png */,
+				C6CCF3101AC2F13100DFFF65 /* mail@2x.png */,
+				C6CCF30D1AC2F02700DFFF65 /* help@2x.png */,
+				C67F81391A5C2B11009B027E /* Default-568h@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C67F81091A5C2727009B027E /* BTControlApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67F812D1A5C2728009B027E /* Build configuration list for PBXNativeTarget "BTControlApp" */;
+			buildPhases = (
+				98178400D4CDA325E53E62A3 /* Check Pods Manifest.lock */,
+				C67F81061A5C2727009B027E /* Sources */,
+				C67F81071A5C2727009B027E /* Frameworks */,
+				C67F81081A5C2727009B027E /* Resources */,
+				2511780879A4DBD52167DB3C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTControlApp;
+			productName = BTControlApp;
+			productReference = C67F810A1A5C2727009B027E /* BTControlApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C67F81221A5C2728009B027E /* BTControlAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67F81301A5C2728009B027E /* Build configuration list for PBXNativeTarget "BTControlAppTests" */;
+			buildPhases = (
+				C67F811F1A5C2728009B027E /* Sources */,
+				C67F81201A5C2728009B027E /* Frameworks */,
+				C67F81211A5C2728009B027E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C67F81251A5C2728009B027E /* PBXTargetDependency */,
+			);
+			name = BTControlAppTests;
+			productName = BTControlAppTests;
+			productReference = C67F81231A5C2728009B027E /* BTControlAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C67F81021A5C2727009B027E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ChosenLeung;
+				TargetAttributes = {
+					C67F81091A5C2727009B027E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C67F81221A5C2728009B027E = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = FBSQ9H5X67;
+						TestTargetID = C67F81091A5C2727009B027E;
+					};
+				};
+			};
+			buildConfigurationList = C67F81051A5C2727009B027E /* Build configuration list for PBXProject "BTControlApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C67F81011A5C2727009B027E;
+			productRefGroup = C67F810B1A5C2727009B027E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C67F81091A5C2727009B027E /* BTControlApp */,
+				C67F81221A5C2728009B027E /* BTControlAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C67F81081A5C2727009B027E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60267AD1ABEA00A00E90B5F /* BTFilesViewController.xib in Resources */,
+				C67F811B1A5C2727009B027E /* Images.xcassets in Resources */,
+				C67F81371A5C2814009B027E /* BTMainViewController.xib in Resources */,
+				C6A8DC131ACC2D4800863554 /* grey@2x.png in Resources */,
+				C6CCF3121AC2F13100DFFF65 /* mail@2x.png in Resources */,
+				C6CCF3111AC2F13100DFFF65 /* earth@2x.png in Resources */,
+				C67F813A1A5C2B11009B027E /* Default-568h@2x.png in Resources */,
+				C6C60EB21ABDD93000FDEB36 /* BTHelpViewController.xib in Resources */,
+				C6CCF30E1AC2F02700DFFF65 /* help@2x.png in Resources */,
+				C6BF8A841ACABF1400631D17 /* orange@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67F81211A5C2728009B027E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2511780879A4DBD52167DB3C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTControlApp/Pods-BTControlApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98178400D4CDA325E53E62A3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C67F81061A5C2727009B027E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60267AC1ABEA00A00E90B5F /* BTFilesViewController.m in Sources */,
+				C67F81131A5C2727009B027E /* AppDelegate.m in Sources */,
+				C67F81101A5C2727009B027E /* main.m in Sources */,
+				C653238D1AADEAC400F2489B /* BTSocketManager.m in Sources */,
+				C67F81351A5C27FA009B027E /* BTMainViewController.m in Sources */,
+				C6C60EB11ABDD93000FDEB36 /* BTHelpViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67F811F1A5C2728009B027E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67F812A1A5C2728009B027E /* BTControlAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C67F81251A5C2728009B027E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67F81091A5C2727009B027E /* BTControlApp */;
+			targetProxy = C67F81241A5C2728009B027E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C67F812B1A5C2728009B027E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C67F812C1A5C2728009B027E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C67F812E1A5C2728009B027E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F76A3F28F00F4DEF563A8892 /* Pods-BTControlApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Guangzhou Havit Computer Technology Co., Ltd (FBSQ9H5X67)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Guangzhou Havit Computer Technology Co., Ltd (FBSQ9H5X67)";
+				INFOPLIST_FILE = BTControlApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "57b78fca-1b3b-4068-89a4-0a1da67b42c1";
+			};
+			name = Debug;
+		};
+		C67F812F1A5C2728009B027E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57177D3DCF9256192CF2E764 /* Pods-BTControlApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Guangzhou Havit Computer Technology Co., Ltd (FBSQ9H5X67)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Guangzhou Havit Computer Technology Co., Ltd (FBSQ9H5X67)";
+				INFOPLIST_FILE = BTControlApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "57b78fca-1b3b-4068-89a4-0a1da67b42c1";
+			};
+			name = Release;
+		};
+		C67F81311A5C2728009B027E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BTControlAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTControlApp.app/BTControlApp";
+			};
+			name = Debug;
+		};
+		C67F81321A5C2728009B027E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BTControlAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTControlApp.app/BTControlApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C67F81051A5C2727009B027E /* Build configuration list for PBXProject "BTControlApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67F812B1A5C2728009B027E /* Debug */,
+				C67F812C1A5C2728009B027E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67F812D1A5C2728009B027E /* Build configuration list for PBXNativeTarget "BTControlApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67F812E1A5C2728009B027E /* Debug */,
+				C67F812F1A5C2728009B027E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67F81301A5C2728009B027E /* Build configuration list for PBXNativeTarget "BTControlAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67F81311A5C2728009B027E /* Debug */,
+				C67F81321A5C2728009B027E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C67F81021A5C2727009B027E /* Project object */;
+}
